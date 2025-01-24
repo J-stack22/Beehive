@@ -5,7 +5,8 @@ word = input("Enter a memorable word of atleast 8 characters: ")
 
 p1 = "blank"
 n1 = "blank"
-
+tsls = "blank"
+#tslw stands for "the super long string"
 
 text = word
 letter1 = text[3] 
@@ -14,61 +15,83 @@ letter3 = text[5]
 
 letter = letter1 + letter2 + letter3
 
-n1 = random.randrange(1,9)
+n1 = random.randrange(19)
 
-if (n1 == 1) :{
 
-print("Accordingtoallknownlawsofaviation,thereisnowayabeeshouldbeabletofly. Itswingsaretoosmalltogetitsfatlittlebodyofftheground. Thebee,ofcourse,fliesanywaybecausebeesdon'tcarewhathumansthinkisimpossible. Yellow,black.Yellow,black.Yellow,black.Yellow,black. Ooh,blackandyellow! Let'sshakeitupalittle. Barry!Breakfastisready! Coming! Hangonasecond. Hello? Barry? Adam? Canyoubelievethisishappening? Ican't. I'llpickyouup. Lookingsharp. Usethestairs,Yourfatherpaidgoodmoneyforthose. Sorry.I'mexcited. Here'sthegraduate. We'reveryproudofyou,son. Aperfectreportcard,allB's. Veryproud. Ma!Igotathinggoinghere. Yougotlintonyourfuzz. Ow!That'sme! Wavetous!We'llbeinrow118,000. Bye! Barry,Itoldyou,stopflyinginthehouse! Hey,Adam. Hey,Barry. Isthatfuzzgel? Alittle.Specialday,graduation. NeverthoughtI'dmakeit. Threedaysgradeschool,threedayshighschool. Thosewereawkward. Threedayscollege.I'mgladItookadayandhitchhikedaroundTheHive. Youdidcomebackdifferent. Hi,Barry.Artie,growingamustache?Looksgood. HearaboutFrankie? Yeah. Yougoingtothefuneral? No,I'mnotgoing. Everybodyknows,stingsomeone,youdie. Don'twasteitonasquirrel. Suchahothead. Iguesshecouldhavejustgottenoutoftheway. Ilovethisincorporatinganamusementparkintoourday. That'swhywedon'tneedvacations. Boy,quiteabitofpompunderthecircumstances. Well,Adam,todaywearemen. Weare! Bee-men. Amen! Hallelujah! Students,faculty,distinguishedbees, pleasewelcomeDeanBuzzwell. Welcome,NewHiveCitygraduatingclassof9:15. ThatconcludesourceremoniesAndbeginsyourcareeratHonexIndustries! Willwepickourjobtoday? Iheardit'sjustorientation. Headsup!Herewego.")
+# 1579 characters 
+#  do roughly randrange(21579)
+if (n1 == 1) : {
 
+    tsls = "Accordingtoallknownlawsofaviationthereisnowayabeeshouldbeabletofly Itswingsaretoosmalltogetitsfatlittlebodyofftheground" + "Thebeeofcoursefliesanywaybecausebeesdontcarewhathumansthinkisimpossible YellowblackYellowblackYellowblackYellowblack Oohblackandyellow! Letsshakeitupalittle Barry!Breakfastisready! Coming! Hangonasecond Hello? Barry? Adam? Canyoubelievethisishappening? Icant Illpickyouup Lookingsharp UsethestairsYourfatherpaidgoodmoneyforthose SorryImexcited Heresthegraduate" + "Wereveryproudofyouson AperfectreportcardallBs Veryproud Ma!Igotathinggoinghere Yougotlintonyourfuzz Ow!Thatsme! Wavetous!Wellbeinrow118000 Bye! BarryItoldyoustopflyinginthehouse! HeyAdam HeyBarry Isthatfuzzgel? AlittleSpecialdaygraduation" + " NeverthoughtIdmakeit Threedaysgradeschoolthreedayshighschool Thosewereawkward ThreedayscollegeImgladItookadayandhitchhikedaroundTheHive Youdidcomebackdifferent HiBarryArtiegrowingamustache?Looksgood HearaboutFrankie? Yeah Yougoingtothefuneral? NoImnotgoing Everybodyknowsstingsomeoneyoudie Dontwasteitonasquirrel Suchahothead Iguesshecouldhavejustgottenoutoftheway Ilovethisincorporatinganamusementparkintoourday Thatswhywedontneedvacations Boyquiteabitofpompunderthecircumstances WellAdamtodaywearemen" + "Weare! Bee-men Amen! Hallelujah! Studentsfacultydistinguishedbees pleasewelcomeDeanBuzzwell WelcomeNewHiveCitygraduatingclassof915 ThatconcludesourceremoniesAndbeginsyourcareeratHonexIndustries! Willwepickourjobtoday? Ihearditsjustorientation Headsup!Herewego"
+
+ 
 }
     
+# 1796 characters
 if (n1 == 2) :{
 
-print("it's two")
+print("""Keepyourhandsandantennasinsidethetramatalltimes Wonderwhatitllbelike? Alittlescary WelcometoHonexadivisionofHonescoandapartoftheHexagonGroup Thisisit! Wow Wow Weknowthatyouasabeehaveworkedyourwholelifetogettothepointwhereyoucanworkforyourwholelife HoneybeginswhenourvaliantPollenJocksbringthenectartoTheHive Ourtop-secretformulaisautomaticallycolor-correctedscent-adjustedandbubble-contouredintothissoothingsweetsyrupwithitsdistinctivegoldenglowyouknowasHoney! Thatgirlwashot Shesmycousin! Sheis? Yeswereallcousins RightYoureright AtHonexweconstantlystrivetoimproveeveryaspectofbeeexistence Thesebeesarestress-testinganewhelmettechnology Whatdoyouthinkhemakes? Notenough HerewehaveourlatestadvancementtheKrelman Whatdoesthatdo? Catchesthatlittlestrandofhoneythathangsafteryoupourit Savesusmillions CananyoneworkontheKrelman? OfcourseMostbeejobsaresmallones Butbeesknowthateverysmalljobifitsdonewellmeansalot Butchoosecarefullybecauseyoullstayinthejobyoupickfortherestofyourlife Thesamejobtherestofyourlife?Ididntknowthat Whatsthedifference? Youllbehappytoknowthatbeesasaspecieshaventhadonedayoffin27millionyears Soyoulljustworkustodeath? Wellsuretry Wow!Thatblewmymind! "Whatsthedifference?" Howcanyousaythat? Onejobforever? Thatsaninsanechoicetohavetomake ImrelievedNowweonlyhavetomakeonedecisioninlife ButAdamhowcouldtheyneverhavetoldusthat? Whywouldyouquestionanything?Werebees WerethemostperfectlyfunctioningsocietyonEarth Youeverthinkmaybethingsworkalittletoowellhere? Likewhat?Givemeoneexample IdontknowButyouknowwhatImtalkingabout PleaseclearthegateRoyalNectarForceonapproach WaitasecondCheckitout HeythosearePollenJocks! Wow Iveneverseenthemthisclose TheyknowwhatitslikeoutsideTheHive Yeahbutsomedontcomeback """   )
 
 }
     
+
+# 1684 characters  
 if (n1 == 3) :{
 
-print("it's three")
+print("HeyJocks! HiJocks! Youguysdidgreat! Youremonsters! Youreskyfreaks!Iloveit!Iloveit! Iwonderwheretheywere Idontknow Theirdaysnotplanned OutsideTheHiveflyingwhoknowswheredoingwhoknowswhat YoucantjustdecidetobeaPollenJockYouhavetobebredforthat Right LookThatsmorepollenthanyouandIwillseeinalifetime Itsjustastatussymbol Beesmaketoomuchofit PerhapsUnlessyourewearingitandtheladiesseeyouwearingit Thoseladies? Arenttheyourcousinstoo? DistantDistant Lookatthesetwo CoupleofHiveHarrys Letshavefunwiththem ItmustbedangerousbeingaPollenJock YeahOnceabearpinnedmeagainstamushroom! Hehadapawonmythroatandwiththeotherhewasslappingme! Ohmy! IneverthoughtIdknockhimout Whatwereyoudoingduringthis? Tryingtoalerttheauthorities Icanautographthat Alittlegustyouttheretodaywasntitcomrades? YeahGusty Werehittingasunflowerpatchsixmilesfromheretomorrow Sixmileshuh? Barry! Apuddlejumpforusbutmaybeyourenotupforit MaybeIam Youarenot! Weregoing0900atJ-Gate Whatdoyouthinkbuzzy-boy? Areyoubeeenough? ImightbeItalldependsonwhat0900means HeyHonex! Dadyousurprisedme Youdecidewhatyoureinterestedin? Welltheresalotofchoices Butyouonlygetone Doyouevergetboreddoingthesamejobeveryday? Sonletmetellyouaboutstirring Yougrabthatstickandyoujustmoveitaroundandyoustiritaround Yougetyourselfintoarhythm Itsabeautifulthing YouknowDadthemoreIthinkaboutit maybethehoneyfieldjustisntrightforme Youwerethinkingofwhatmakingballoonanimals? Thatsabadjobforaguywithastinger Janetyoursonsnotsurehewantstogointohoney! Barryyouaresofunnysometimes Imnottryingtobefunny Yourenotfunny!YouregoingintohoneyOursonthestirrer! Youregonnabeastirrer?")
 
 }
     
+# 1630 characters  
+# do like randRang(41630)  
 if (n1 == 4) :{
 
-print("it's four")
+print("""Nooneslisteningtome! WaittillyouseethesticksIhave Icouldsayanythingrightnow Imgonnagetananttattoo! Letsopensomehoneyandcelebrate! MaybeIllpiercemythoraxShavemyantennaeShackupwithagrasshopperGetagoldtoothandcalleverybody"dawg"! Imsoproud Werestartingworktoday! Todaystheday Comeon!Allthegoodjobswillbegone Yeahright Pollencountingstuntbeepouringstirrerfrontdeskhairremoval Isitstillavailable? HangonTwoleft! Oneofthemsyours!Congratulations! Steptotheside Whatdyouget? PickingcrudoutStellar! Wow! Coupleofnewbies? Yessir!Ourfirstday!Weareready! Makeyourchoice Youwanttogofirst? Noyougo OhmyWhatsavailable? Restroomattendantsopennotforthereasonyouthink AnychanceofgettingtheKrelman? Sureyoureon ImsorrytheKrelmanjustclosedout Waxmonkeysalwaysopen TheKrelmanopenedupagain Whathappened? AbeediedMakesanopeningSee?HesdeadAnotherdeadone DeadyDeadifiedTwomoredead DeadfromtheneckupDeadfromtheneckdownThatslife! Ohthisissohard! Heatingcoolingstuntbeepourerstirrerhumminginspectornumbersevenlintcoordinatorstripesupervisormitewrangler BarrywhatdoyouthinkIshouldBarry? Barry! Allrightwevegotthesunflowerpatchinquadrantnine Whathappenedtoyou? Whereareyou? Imgoingout Out?Outwhere? Outthere Ohno! IhavetobeforeIgotoworkfortherestofmylife Youregonnadie!Yourecrazy!Hello? Anothercallcomingin IfanyonesfeelingbravetheresaKoreandelion83rdthatgetstheirrosestoday Heyguys Lookatthat Isntthatthekidwesawyesterday? Holditsonflightdecksrestricted ItsOKLouWeregonnatakehimup Really?Feelingluckyareyou? SignherehereJustinitialthat Thankyou OK""")
 
 }
     
+
+# 1589 characters    
 if (n1 == 5) :{
 
-print("it's five")
+print("Yougotarainadvisorytodayandasyouallknowbeescannotflyinrain SobecarefulAsalwayswatchyourbroomshockeysticksdogsbirdsbearsandbats AlsoIgotacoupleofreportsofrootbeerbeingpouredonus Murphysinahomebecauseofitbabblinglikeacicada! Thatsawful Andareminderforyourookiesbeelawnumberoneabsolutelynotalkingtohumans! Allrightlaunchpositions! Buzzbuzzbuzzbuzz!Buzzbuzzbuzzbuzz!Buzzbuzzbuzzbuzz! Blackandyellow! Hello! Youreadyforthishotshot? YeahYeahbringiton Windcheck Antennaecheck Nectarpackcheck Wingscheck Stingercheck Scaredoutofmyshortscheck OKladies letsmoveitout! Poundthosepetuniasyoustripedstem-suckers! Allofyoudrainthoseflowers! Wow!Imout! IcantbelieveImout! Soblue Ifeelsofastandfree! Boxkite! Wow! Flowers! ThisisBlueLeaderWehaverosesvisual Bringitaround30degreesandhold Roses! 30degreesrogerBringingitaround Standtothesidekid Itsgotabitofakick Thatisonenectarcollector! Everseepollinationupclose? Nosir IpickupsomepollenheresprinkleitoverhereMaybeadashoverthereapinchonthatone Seethat?Itsalittlebitofmagic ThatsamazingWhydowedothat? ThatspollenpowerMorepollenmoreflowersmorenectarmorehoneyforus Cool ImpickingupalotofbrightyellowCouldbedaisiesDontweneedthose? Copythatvisual WaitOneoftheseflowersseemstobeonthemove Sayagain?Yourereportingamovingflower? Affirmative Thatwasontheline! ThisisthecoolestWhatisit? IdontknowbutImlovingthiscolor Itsmellsgood NotlikeaflowerbutIlikeit Yeahfuzzy Chemical-y CarefulguysItsalittlegrabby Mysweetlordofbees! Candy-braingetoffthere! Problem! Guys!")
 
 }
-    
+
+
+# 1702 characters    
 if (n1 == 6) :{
 
-print("it's six")
+print("Thiscouldbebad Affirmative Veryclose Gonnahurt Mamaslittleboy Youarewayoutofpositionrookie! Cominginatyoulikeamissile! Helpme! Idontthinktheseareflowers Shouldwetellhim? Ithinkheknows Whatisthis?! Matchpoint! Youcanstartpackinguphoneybecauseyoureabouttoeatit! Yowser! Gross Theresabeeinthecar! Dosomething! Imdriving! Hibee Hesbackhere! Hesgoingtostingme! NobodymoveIfyoudontmovehewontstingyouFreeze! Heblinked! SprayhimGranny! Whatareyoudoing?! Wowthetensionlevelouthereisunbelievable Igottagethome CantflyinrainCantflyinrainCantflyinrain Mayday!Mayday!Beegoingdown! Kencouldyouclosethewindowplease? Kencouldyouclosethewindowplease? CheckoutmynewresumeImadeitintoafold-outbrochureYousee?Foldsout OhnoMorehumansIdontneedthis Whatwasthat? MaybethistimeThistimeThistimeThistime!Thistime!ThisDrapes! Thatisdiabolical ItsfantasticItsgotallmyspecialskillsevenmytop-tenfavoritemovies Whatsnumberone?StarWars? NahIdontgoforthatkindofstuff NowonderweshouldnttalktothemTheyreoutoftheirminds WhenIleaveajobinterviewtheyreflabbergastedcantbelievewhatIsay TheresthesunMaybethatsawayout Idontrememberthesunhavingabig75onit IpredictedglobalwarmingIcouldfeelitgettinghotterAtfirstIthoughtitwasjustme Wait!Stop!Bee! StandbackThesearewinterboots Wait! Dontkillhim! YouknowImallergictothem!Thisthingcouldkillme! Whydoeshislifehavelessvaluethanyours? Whydoeshislifehaveanylessvaluethanmine?Isthatyourstatement? ImjustsayingalllifehasvalueYoudontknowwhathescapableoffeeling Mybrochure! Thereyougolittleguy ImnotscaredofhimItsanallergicthing Putthatonyourresumebrochure Mywholefacecouldpuffup Makeitoneofyourspecialskills")
 
 }
     
+
+# 1576 characters    
 if (n1 == 7) :{
 
-print("it's seven")
+print("""Knockingsomeoneoutisalsoaspecialskill RightByeVanessaThanks Vanessanextweek?Yogurtnight? SureKenYouknowwhatever Youcouldputcarobchipsonthere Bye Supposedtobelesscalories Bye IgottasaysomethingShesavedmylifeIgottasaysomething Allrighthereitgoes Nah WhatwouldIsay? IcouldreallygetintroubleItsabeelawYourenotsupposedtotalktoahuman IcantbelieveImdoingthisIvegotto OhIcantdoitComeon! NoYesNoDoitIcant HowshouldIstartit?"Youlikejazz?"Nothatsnogood Hereshecomes!Speakyoufool! Hi! ImsorryYouretalking YesIknow Youretalking! Imsosorry NoitsOKItsfine IknowImdreamingButIdontrecallgoingtobed WellImsurethisisverydisconcerting ThisisabitofasurprisetomeImeanyoureabee! IamAndImnotsupposedtobedoingthisbuttheywerealltryingtokillme AndifitwasntforyouIhadtothankyouItsjusthowIwasraised ThatwasalittleweirdImtalkingwithabee Yeah ImtalkingtoabeeAndthebeeistalkingtome! IjustwanttosayImgrateful Illleavenow Wait!Howdidyoulearntodothat? What? Thetalkingthing SamewayyoudidIguess"MamaDadahoney"Youpickitup Thatsveryfunny Yeah BeesarefunnyIfwedidntlaughwedcrywithwhatwehavetodealwith AnywayCanIgetyousomething? Likewhat? IdontknowImeanIdontknowCoffee? Idontwanttoputyouout ItsnotroubleIttakestwominutes Itsjustcoffee Ihatetoimpose Dontberidiculous! ActuallyIwouldloveacup Heyyouwantrumcake? Ishouldnt Havesome NoIcant Comeon! Imtryingtoloseacouplemicrograms Where? Thesestripesdonthelp Youlookgreat! Idontknowifyouknowanythingaboutfashion Areyouallright? No""")
 
 }
     
+
+# 1555 characters    
 if (n1 == 8) :{
 
-print("it's eight")
+print("""HesmakingthetieinthecabastheyreflyingupMadison Hefinallygetsthere Herunsupthestepsintothechurch Theweddingison Andhesays"Watermelon? IthoughtyousaidGuatemalan WhywouldImarryawatermelon?" Isthatabeejoke? Thatsthekindofstuffwedo Yeahdifferent SowhatareyougonnadoBarry? Aboutwork?Idontknow IwanttodomypartforTheHivebutIcantdoitthewaytheywant Iknowhowyoufeel Youdo? Sure MyparentswantedmetobealawyeroradoctorbutIwantedtobeaflorist Really? Myonlyinterestisflowers Ournewqueenwasjustelectedwiththatsamecampaignslogan AnywayifyoulookTheresmyhiverightthereSeeit? YoureinSheepMeadow! Yes!ImrightofftheTurtlePond! Noway!IknowthatareaIlostatoeringthereonce Whydogirlsputringsontheirtoes? Whynot? Itslikeputtingahatonyourknee MaybeIlltrythat Youallrightmaam? OhyeahFine Justhavingtwocupsofcoffee! Anywaythishasbeengreat Thanksforthecoffee Yeahitsnotrouble SorryIcouldntfinishitIfIdidIdbeuptherestofmylife Areyou? CanItakeapieceofthiswithme? Sure!Herehaveacrumb Thanks! Yeah AllrightWellthenIguessIllseeyouaroundOrnot OKBarry Andthankyousomuchagainforbefore Ohthat?Thatwasnothing WellnotnothingbutAnyway Thiscantpossiblywork Hesallsettogo Wemayaswelltryit OKDavepullthechute Soundsamazing Itwasamazing! Itwasthescariesthappiestmomentofmylife Humans!Icantbelieveyouwerewithhumans! Giantscaryhumans! Whatweretheylike? HugeandcrazyTheytalkcrazy Theyeatcrazygiantthings Theydrivecrazy DotheytryandkillyoulikeonTV? SomeofthemButsomeofthemdont Howdyougetback? Poodle""")
+
+}
+
+
+# 1614 characters 
+if (n1 == 9) :{
+
+print("""YoudiditandImgladYousawwhateveryouwantedtosee Youhadyour"experience"Nowyoucanpickoutyourjobandbenormal Well Well? WellImetsomeone Youdid?WassheBee-ish? Awasp?!Yourparentswillkillyou! Nonononotawasp Spider? Imnotattractedtospiders IknowitsthehottestthingwiththeeightlegsandallIcantgetbythatface Sowhoisshe? Sheshuman NonoThatsabeelawYouwouldntbreakabeelaw HernamesVanessa Ohboy ShessoniceAndshesaflorist! Ohno!Youredatingahumanflorist! Werenotdating YoureflyingoutsideTheHivetalkingtohumansthatattackourhomeswithpowerwashersandM-80s!One-eighthastickofdynamite! Shesavedmylife!Andsheunderstandsme Thisisover! Eatthis Thisisnotover!Whatwasthat? Theycallitacrumb Itwassostinginstripey! Andthatsnotwhattheyeat Thatswhatfallsoffwhattheyeat! YouknowwhataCinnabonis? No ItsbreadandcinnamonandfrostingTheyheatitup Sitdown! reallyhot! Listentome! Wearenotthem!Wereus Theresusandtheresthem! Yesbutwhocandenytheheartthatisyearning? TheresnoyearningStopyearningListentome! YouhavegottostartthinkingbeemyfriendThinkingbee! Thinkingbee Thinkingbee Thinkingbee!Thinkingbee!Thinkingbee!Thinkingbee! ThereheisHesinthepool YouknowwhatyourproblemisBarry? Igottastartthinkingbee? Howmuchlongerwillthisgoon? Itsbeenthreedays!Whyarentyouworking? Ivegotalotofbiglifedecisionstothinkabout Whatlife?Youhavenolife! YouhavenojobYourebarelyabee! Woulditkillyoutomakealittlehoney? BarrycomeoutYourfatherstalkingtoyou Martinwouldyoutalktohim? BarryImtalkingtoyou! Youcoming? Goteverything? Allset! GoaheadIllcatchup Dontbetoolong Watchthis! Vanessa!""")
 
 }
     
-if (n1 == 9) :{
-
-print("it's nine")
-
-}
+print(" ")
+print(tsls)
 
 
 
